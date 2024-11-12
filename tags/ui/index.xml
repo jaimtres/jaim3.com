@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UI on My New Hugo Site</title>
+    <link>/tags/ui/</link>
+    <description>Recent content in UI on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/ui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Molly</title>
+      <link>/projects/molly/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/projects/molly/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;    .button-wrapper{&#xD;&#xA;        display:block;&#xD;&#xA;        background-color: transparent;&#xD;&#xA;        text-align: center;&#xD;&#xA;        padding-block:0rem 3rem;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .button-wrapper a{&#xD;&#xA;        text-decoration:none;&#xD;&#xA;        display:inline-block;&#xD;&#xA;        padding:0.8rem 1.8rem;&#xD;&#xA;        border-radius:100rem;&#xD;&#xA;        &#xD;&#xA;        background-color: var(--enlace);&#xD;&#xA;        color:white; &#xD;&#xA;&#xD;&#xA;        transform:scale(1);&#xD;&#xA;        box-shadow: 0px 5px 15px rgba(48, 114, 255, 0);&#xD;&#xA;        transition: 300ms all ease-in-out;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    .button-wrapper a:hover{&#xD;&#xA;        transform:scale(1.05);&#xD;&#xA;        box-shadow: 0px 5px 15px rgba(48, 114, 255, 0.4);&#xD;&#xA;    }&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;button-wrapper&#34;&gt;&#xD;&#xA;    &lt;a href=&#39;https://jaim3.com/molly-concept/index.html&#39;&gt;&#xD;&#xA;        View Website&#xD;&#xA;    &lt;/a&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;before-and-after&#34;&gt;Before and After&lt;/h2&gt;&#xA;&lt;p&gt;Molly has an informative and minimalist website. But its design is starting to look more older than present, and it&amp;rsquo;s not fully intuitive at a first glance&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

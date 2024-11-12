@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.136.2">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jaim3</title>
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png?v=/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png?v=/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png?v=/favicon/favicon.ico">
+    <link rel="manifest" href="./favicon/site.webmanifest?v=/favicon/favicon.ico">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg?v=/favicon/favicon.ico" color="#0071e3">
+    <link rel="shortcut icon" href="./favicon/favicon.ico?v=/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Jaim3">
+    <meta name="application-name" content="Jaim3">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=/favicon/favicon.ico">
+    <meta name="theme-color" content="#fbfbfd">
+
+    
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jaim3">
+    <meta property="og:description" content="Portfolio de diseño de Jaime López">
+    <meta property="og:image" content='/images/og_image.png'>
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="/">
+    <meta property="twitter:url" content="/">
+    <meta name="twitter:title" content="Jaim3">
+    <meta name="twitter:description" content="Portfolio de diseño de Jaime López">
+    <meta name="twitter:image" content='/images/og_image.png'>
+
+
+    
+    <link rel="stylesheet" href='./css/reset.css'>
+    <link rel="stylesheet" href='./css/variables.css'>
+    
+    
+    
+    <link rel="stylesheet" href="./css/index.css">
+    
+    
+</head>
+
+<style>
+
+ 
+::-webkit-scrollbar {
+    width: 1rem;  
+  }
+  
+   
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+   
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.15);
+    border: 0.30rem solid transparent;  
+    background-clip: content-box;
+    border-radius:100rem;
+  }
+  
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+
+  .content-container::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15vh;
+    background: linear-gradient(to bottom, transparent, var(--bg));
+    pointer-events: none;
+
+    z-index: 5555;
+  }
+  
+
+  @media only screen and (max-width: 600px){
+    .content-container::after {
+      display: none;
+    }
+
+  }
+
+</style>
+
+<body>
+  <div class="content-container">
+    
+
+
+    <style>
+        div {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            width: 35px;
+            display: inline;
+            margin-right: 5px;
+        }
+
+        .boton:hover {
+            opacity: 80%;
+        }
+
+        .logo.boton, .atras.boton {
+            width: 20px;
+            text-decoration: none;
+        }
+
+        .atras.boton {
+            padding: 5px;
+        }
+
+        #navegacion {
+             
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: calc(var(--ancho) + 20px);
+            margin: auto;
+            padding-block:1.2rem 1.5rem;
+
+
+            background-color: rgba(253, 253, 251, 0.85); 
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px); 
+        }
+
+
+
+        #navegacion .grid {
+            display: flex;
+            align-items: center;  
+        }
+
+        #navegacion .grid a {
+
+            margin-inline:0.3rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 1000px;
+
+            background-color:rgb(0, 113, 227,0.08);
+             
+            border: 1px solid transparent;
+            cursor: pointer;
+            color: var(--enlace);
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+
+            font-size:0.9rem;
+        }
+
+        #navegacion .grid a.jjj {
+            background-color: rgba(100, 149, 237, 0);
+            border: 1px solid rgba(100, 149, 237, 0);
+            fill: var(--enlace);  
+        }
+
+        #navegacion .grid a.jjj:hover {
+            background-color: rgba(100, 149, 237, 0);
+            border: 1px solid rgba(100, 149, 237, 0.4);
+            transition: border 800ms;
+        }
+
+        #navegacion .grid a:hover {
+            background-color: var(--enlace-hover-bg);
+            border: 1px solid var(--enlace-hover-bg);
+            color: white;
+            transition: background-color 600ms, color 800ms;
+        }
+
+        #hueco {
+            height: 20px;
+        }
+
+        @media only screen and (max-width: 500px) {
+            #navegacion {
+                background-color: rgba(253, 253, 251, 0.85); 
+                bottom: 0;
+                top: auto;
+                padding-block:1.5rem;
+                text-align: right;
+                width: 100%;
+                max-width: var(--ancho);
+            }
+
+            #navegacion .grid a{
+                
+                
+            }
+
+            #navegacion .grid a.jjj {
+                display: none;
+            }
+
+            #hueco {
+                height: 0;
+            }
+
+            body {
+                margin-bottom: 100px;
+            }
+        }
+    </style>
+
+    <div id="hueco"></div>
+
+    <div id="navegacion">
+        <div class="grid">
+            <a class="jjj" href="./">
+                <svg style="width:40px;" viewBox="0 0 136.83 52.46">
+                    <g id="Capa_2" data-name="Capa 2">
+                        <g id="Capa_1-2" data-name="Capa 1">
+                            <path class="cls-1" d="M30.86,0H41.15V31.89c0,11.83-8.75,20.57-20.58,20.57S0,43.72,0,31.89H10.29c0,6.17,4.42,10.8,10.28,10.8s10.29-4.63,10.29-10.8Z"/>
+                            <path class="cls-1" d="M78.7,0H89V31.89c0,11.83-8.74,20.57-20.57,20.57S47.84,43.72,47.84,31.89H58.13c0,6.17,4.42,10.8,10.29,10.8S78.7,38.06,78.7,31.89Z"/>
+                            <path class="cls-1" d="M126.55,0h10.28V31.89c0,11.83-8.74,20.57-20.57,20.57S95.69,43.72,95.69,31.89H106c0,6.17,4.43,10.8,10.29,10.8s10.29-4.63,10.29-10.8Z"/>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+            <a href="./about">About</a>
+            <a href="./projects">Work</a> 
+            <a href="./contact">Contact</a> 
+            <a href="">Español</a> 
+        </div>
+    </div>
+</html>
+
+
+<div class="contenedor">
+    <div id="encabezado">
+        <svg style="width:40px; vertical-align:bottom;margin-inline:auto;" viewBox="0 0 136.83 52.46"><defs><style></style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="cls-1" d="M30.86,0H41.15V31.89c0,11.83-8.75,20.57-20.58,20.57S0,43.72,0,31.89H10.29c0,6.17,4.42,10.8,10.28,10.8s10.29-4.63,10.29-10.8Z"/><path class="cls-1" d="M78.7,0H89V31.89c0,11.83-8.74,20.57-20.57,20.57S47.84,43.72,47.84,31.89H58.13c0,6.17,4.42,10.8,10.29,10.8S78.7,38.06,78.7,31.89Z"/><path class="cls-1" d="M126.55,0h10.28V31.89c0,11.83-8.74,20.57-20.57,20.57S95.69,43.72,95.69,31.89H106c0,6.17,4.43,10.8,10.29,10.8s10.29-4.63,10.29-10.8Z"/></g></g></svg>
+    </div>
+
+    <section id="titular">
+        <h1 class="gradiente">Jaime López</h1>
+        <h2>
+            Visual Designer - Branding / Web / UI
+            <br>
+            <span class="place">
+                Madrid, Spain
+            </span>
+        </h2>
+    </section>
+
+    <div class="destacados">
+        
+            
+        
+            
+            <div class="dos ">
+                <a href="./brands">
+                    <img src="./img/thumb/brands_en.webp" alt="">
+                </a>
+            </div>
+            <div class="info">
+                <ul>
+                    
+                        <li>⭐ Branding</li>
+                    
+                        <li>👕 Application</li>
+                    
+                </ul>
+            </div>
+            
+        
+            
+            <div class="dos ">
+                <a href="./projects/molly">
+                    <img src="./img/thumb/molly.webp" alt="">
+                </a>
+            </div>
+            <div class="info">
+                <ul>
+                    
+                        <li>🖥️ Web Dev</li>
+                    
+                        <li>⭐ Branding</li>
+                    
+                        <li>❤️ Open-source</li>
+                    
+                </ul>
+            </div>
+            
+        
+            
+            <div class="dos ">
+                <a href="./projects/rimusic">
+                    <img src="./img/thumb/rimusic.webp" alt="">
+                </a>
+            </div>
+            <div class="info">
+                <ul>
+                    
+                        <li>🖥️ Web Dev</li>
+                    
+                        <li>⭐ Branding</li>
+                    
+                        <li>❤️ Open-source</li>
+                    
+                </ul>
+            </div>
+            
+        
+
+        <a style="grid-column-start: 1; grid-column-end:3; width:auto; padding:1ch 3ch; margin-top:1rem; border-radius:40rem; margin-inline:auto; text-align:center; text-decoration:none; background-color:var(--enlace-bg); color:var(--enlace)" href="./projects">
+            All Projects
+        </a>
+    </div>
+
+    
+
+        <footer class="pie">
+            
+            <span style="color:darkgray; line-height:1.5;"><b>Jaim3</b></span>
+            <br>Built with Hugo
+        </footer>
+</div>
+
+
+
+
+  </div>
+</body>
+</html>

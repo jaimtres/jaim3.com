@@ -1,0 +1,95 @@
+
+.cabecera{
+    text-align: center;
+    width:min(600px,90vw);
+
+    margin-inline: auto;
+    margin-top:1rem;
+}
+
+    .cabecera h1{
+        font-size:1.2rem;
+
+    }
+
+    .cabecera p{
+        font-size:0.9rem;
+        opacity:80%;
+
+        display: inline-block;
+    }
+
+
+.brand-grid {
+    display: grid;
+    gap: 10px;
+    width:min(600px,90vw);
+    margin-inline:auto;
+    margin-block:2rem 4rem;
+}
+
+.brand-grid img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.brand-grid a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.03);
+    padding:1rem;
+    border-radius: 1rem;
+}
+  
+
+  .col-1 {
+    grid-template-columns: 1fr;
+  }
+  .col-1 a {
+    aspect-ratio: 2 / 1;
+  }
+  
+  .col-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .col-2 a {
+    aspect-ratio: 2 / 1;
+  }
+  
+  
+  .col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .col-3 a {
+    aspect-ratio: 1 / 1;
+  }
+  
+  .col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .col-4 a {
+    aspect-ratio: 1;
+  }
+  
+  /* Style for grid items (links) */
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc; /* Solo para visualizar */
+    overflow: hidden;
+  }
+  
+  /* SVG image styling */
+  .grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+  }
+  

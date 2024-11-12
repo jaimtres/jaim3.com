@@ -1,0 +1,24 @@
+:root{
+    --bg:#FBFBFD;
+    --back:#FBFBFD;
+
+    --texto: #222;
+    --negro: #222;
+
+    --borde: #eee;
+    --borde-hover:#0071e3;
+
+    --enlace:#0071e3;
+    --enlace-bg:#eff3fc;
+    --enlace-hover: white;
+    --enlace-hover-bg:#0071e3;  
+
+    --box-shadow:0px 5px 5px rgba(0,0,0,0.03);
+    --box-shadow-hover: 0px 0px 40px rgba(0,0,0,0.13);
+}
+
+body{
+    background-color: var(--bg);
+}
+
+
