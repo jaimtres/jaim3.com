@@ -109,6 +109,11 @@ header{
     color:#03a763;
 }
 
+.badge-inp{
+    background-color:  #fdf6d2;
+    color:#f39508;
+}
+
 .date{
     color:#aaa;
     font-size:0.8rem;
