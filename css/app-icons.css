@@ -168,8 +168,9 @@ div.icon-grid .icon:active{
     height: 100%;
     object-fit: cover;
 
-    mask-image: url("/img/app-icons/ios-app.svg");
-    -webkit-mask-image: url("/img/app-icons/ios-app.svg");
+    mask-image: var(--mask-image-url);
+    -webkit-mask-image: var(--mask-image-url);
+    
     mask-size: 100% 100%;
     -webkit-mask-size: 100% 100%;
     mask-repeat: no-repeat;
