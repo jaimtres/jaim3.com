@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contest on My New Hugo Site</title>
+    <link>/tags/contest/</link>
+    <description>Recent content in Contest on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/contest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Casa del Estudiante</title>
+      <link>/projects/cde/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/projects/cde/</guid>
+      <description>&lt;style&gt;&#xD;&#xA;.grilla {&#xD;&#xA;    display: grid;&#xD;&#xA;    grid-template-columns:repeat(2,1fr);&#xD;&#xA;}&#xD;&#xA;.grilla figure {&#xD;&#xA;    padding: 10px;&#xD;&#xA;    text-align:center;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;.grilla img {&#xD;&#xA;    width: 100%;&#xD;&#xA;    height: auto;&#xD;&#xA;    margin: 0;&#xD;&#xA;}&#xD;&#xA;.grilla figcaption {&#xD;&#xA;    margin-top: 10px;&#xD;&#xA;    text-align: center;&#xD;&#xA;    color: #333;&#xD;&#xA;    padding: 5px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&lt;div&gt;&#xD;&#xA;    &lt;div style=&#34;position: relative; width: 100%; height: 0; padding-top: 100.0000%;&#xD;&#xA;    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); overflow: hidden;&#xD;&#xA;    border-radius: 8px; will-change: transform;&#34;&gt;&#xD;&#xA;    &lt;iframe loading=&#34;lazy&#34; style=&#34;position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;&#34;&#xD;&#xA;        src=&#34;https:&amp;#x2F;&amp;#x2F;www.canva.com&amp;#x2F;design&amp;#x2F;DAGDyCP-g5I&amp;#x2F;72JNbL9NsNhteKbRqhUQyQ&amp;#x2F;view?embed&#34; allowfullscreen=&#34;allowfullscreen&#34; allow=&#34;fullscreen&#34;&gt;&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;p style=&#34;text-align:center; font-style:italic; margin-top:1rem;&#34;&gt;Overview of the proposal&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

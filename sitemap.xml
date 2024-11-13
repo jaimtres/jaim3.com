@@ -29,6 +29,12 @@
     <loc>/tags/web-dev/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/projects/cde/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/contest/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/marketing/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -58,7 +64,5 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/about/</loc>
-  </url><url>
-    <loc>/projects/app-icons/</loc>
   </url>
 </urlset>
