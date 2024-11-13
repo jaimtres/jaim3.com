@@ -55,5 +55,7 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/about/</loc>
+  </url><url>
+    <loc>/projects/app-icons/</loc>
   </url>
 </urlset>
