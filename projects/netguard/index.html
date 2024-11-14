@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NetGuard</title>
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png?v=/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png?v=/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png?v=/favicon/favicon.ico">
+    <link rel="manifest" href="../../favicon/site.webmanifest?v=/favicon/favicon.ico">
+    <link rel="mask-icon" href="../../favicon/safari-pinned-tab.svg?v=/favicon/favicon.ico" color="#0071e3">
+    <link rel="shortcut icon" href="../../favicon/favicon.ico?v=/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Jaim3">
+    <meta name="application-name" content="Jaim3">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=/favicon/favicon.ico">
+    <meta name="theme-color" content="#fbfbfd">
+
+    
+    <meta property="og:url" content="https://jaimtres.github.io/jaim3.com/projects/netguard/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NetGuard">
+    <meta property="og:description" content="">
+    <meta property="og:image" content='/images/og_image.png'>
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="https://jaimtres.github.io/jaim3.com/">
+    <meta property="twitter:url" content="https://jaimtres.github.io/jaim3.com/projects/netguard/">
+    <meta name="twitter:title" content="NetGuard">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content='/images/og_image.png'>
+
+
+    
+    <link rel="stylesheet" href='../../css/reset.css'>
+    <link rel="stylesheet" href='../../css/variables.css'>
+    
+    
+    
+    <link rel="stylesheet" href="../../css/project.css">
+    
+    
+</head>
+
+<style>
+
+ 
+::-webkit-scrollbar {
+    width: 1rem;  
+  }
+  
+   
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+   
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.15);
+    border: 0.30rem solid transparent;  
+    background-clip: content-box;
+    border-radius:100rem;
+  }
+  
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+
+  .content-container::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15vh;
+    background: linear-gradient(to bottom, transparent, var(--bg));
+    pointer-events: none;
+
+    z-index: 5555;
+  }
+  
+
+  @media only screen and (max-width: 600px){
+    .content-container::after {
+      display: none;
+    }
+
+  }
+
+</style>
+
+<body>
+  <div class="content-container">
+    
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        margin-inline:auto;
+
+         
+
+        background-color: rgba(253, 253, 251, 0.85); 
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); 
+
+        z-index: 1000;
+
+        padding-block:0.4rem;
+        padding-inline:1.2rem;
+        box-sizing: border-box;
+
+    }
+    
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+
+        color: #222222;
+        text-decoration: none;
+        border-radius: 50%;
+
+        opacity: 30%;
+    }
+    
+    .button:first-child {
+        justify-self: start;
+    }
+    .button:last-child {
+        justify-self: end;
+    }
+
+    .button svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .button .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .button:hover {
+        opacity: 100%;
+    }
+
+    @media (max-width: 600px) {
+        .grid-container {
+            top: auto;
+            bottom: 0;
+            padding-block:1rem;
+             
+        }
+    }
+</style>
+
+<div class="grid-container">
+    <a class="button" href="javascript:window.history.back();">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
+    </a>
+
+    <a class="button" href="../../">
+        <svg class="logo" fill="currentColor" viewBox="0 0 136.83 52.46"><defs><style></style></defs><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path class="cls-1" d="M30.86,0H41.15V31.89c0,11.83-8.75,20.57-20.58,20.57S0,43.72,0,31.89H10.29c0,6.17,4.42,10.8,10.28,10.8s10.29-4.63,10.29-10.8Z"/><path class="cls-1" d="M78.7,0H89V31.89c0,11.83-8.74,20.57-20.57,20.57S47.84,43.72,47.84,31.89H58.13c0,6.17,4.42,10.8,10.29,10.8S78.7,38.06,78.7,31.89Z"/><path class="cls-1" d="M126.55,0h10.28V31.89c0,11.83-8.74,20.57-20.57,20.57S95.69,43.72,95.69,31.89H106c0,6.17,4.43,10.8,10.29,10.8s10.29-4.63,10.29-10.8Z"/></g></g></svg>
+    </a>
+
+</div>
+
+
+
+
+<style>
+    body{
+     padding-top:2rem;
+    }
+
+    @media only screen and (max-width: 600px){
+        body{
+            padding-top:0rem;
+        }
+    }
+</style>
+
+<div class="wrap">
+    <header>
+        <span class="title">NetGuard</span>
+        
+
+        <ul class="tags">
+            
+                <a href="../../tags/branding" class="tag">Branding</a>
+            
+        </ul>
+        
+        <img class="thumb" src="../../img/projects/netguard/netguard.webp">
+
+        <span class="date">
+            September, 2024
+        </span>
+
+        <span class='badge 
+            badge-gray
+            
+            '>
+            Concept
+            
+        </span>
+
+
+        <p class="desc">
+            An updated design for NetGuard, an open-source firewall app for Android with 1 million users
+        </p>
+
+    </header>
+
+    
+
+    <!--
+<style>
+    .button-wrapper{
+        display:block;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .button-wrapper a{
+        text-decoration:none;
+        display:inline-block;
+        padding:0.8rem 1.8rem;
+        border-radius:100rem;
+        
+        background-color: var(--enlace);
+        color:white; 
+
+        transform:scale(1);
+        box-shadow: 0px 5px 15px rgba(48, 114, 255, 0);
+        transition: 300ms all ease-in-out;
+    }
+
+    .button-wrapper a:hover{
+        transform:scale(1.05);
+        box-shadow: 0px 5px 15px rgba(48, 114, 255, 0.4);
+    }
+</style>
+
+<div class="button-wrapper">
+    <a href='../../docs/netguard-jaim3.pdf'>
+        Project PDF
+    </a>
+</div>
+<br>
+ -->
+<figure>
+    <a href='../../img/projects/netguard/logotype-comparison.webp'>
+        <img class="body" src='../../img/projects/netguard/logotype-comparison.webp' alt='Logotype comparison' loading="lazy">
+    </a>
+    
+</figure>
+
+<figure>
+    <a href='../../img/projects/netguard/icon-comparison.webp'>
+        <img class="body" src='../../img/projects/netguard/icon-comparison.webp' alt='Icon comparison' loading="lazy">
+    </a>
+    
+</figure>
+
+<figure>
+    <a href='../../img/projects/netguard/monochrome.webp'>
+        <img class="body" src='../../img/projects/netguard/monochrome.webp' alt='Logotype and symbol in monochrome' loading="lazy">
+    </a>
+    
+</figure>
+
+<figure>
+    <a href='../../img/projects/netguard/icons-3.webp'>
+        <img class="body" src='../../img/projects/netguard/icons-3.webp' alt='App icon in 3 colors (gradient)' loading="lazy">
+    </a>
+    
+</figure>
+
+<figure>
+    <a href='../../img/projects/netguard/icons-3-flat.webp'>
+        <img class="body" src='../../img/projects/netguard/icons-3-flat.webp' alt='App icon in 3 colors (flat)' loading="lazy">
+    </a>
+    
+</figure>
+
+
+
+    <style>
+    .footer-wrapper{
+        display:block;
+        text-align: center;
+        padding-block:3rem 5rem;
+
+    }
+    .contact-footer{
+
+        display:inline-block;
+        margin:auto;
+
+        width:100%;
+        padding-block:1.2rem 1.8rem;
+
+        font-size:0.9rem;
+        color:rgba(0,0,0,0.6);
+        background-color: rgba(0,0,0,0.04);
+        
+        
+        border-radius:1rem;
+
+    }
+
+    .contact-footer a{
+        display:inline-block;
+
+        margin-top:1rem;
+        padding:1rem 2rem;
+
+        border-radius:400rem;
+        background-color:var(--enlace);
+        color:white;
+        text-decoration:none;
+
+        transform:scale(1);
+        box-shadow: 0px 5px 15px rgba(48, 114, 255, 0);
+
+        transition: 300ms all ease-in-out;
+
+    }
+
+    .contact-footer a:hover{
+        transform:scale(1.05);
+        box-shadow: 0px 5px 15px rgba(48, 114, 255, 0.4);
+    }
+</style>
+
+<div class="footer-wrapper">
+<div class="contact-footer">
+    For work inquiries<br>
+    <a href="mailto:info@jaim3.com">Contact me</a>
+</div>
+</div>
+
+
+    
+</div>
+
+
+
+
+
+
+  </div>
+</body>
+</html>
