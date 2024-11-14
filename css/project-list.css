@@ -126,6 +126,10 @@ div.info{
     text-transform: capitalize;
 }
 
+.tags-list a.all{
+    background-color: transparent;
+}
+
 .tags-list a:hover{
     background-color: var(--enlace);
     color:white;

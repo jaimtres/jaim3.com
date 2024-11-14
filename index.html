@@ -172,6 +172,15 @@
             font-size:0.9rem;
         }
 
+        #navegacion .grid a.highlight {
+            background-color: var(--enlace);
+            color: white;
+        }
+
+        #navegacion .grid a.highlight:hover {
+            filter:brightness(95%);
+        }
+
         #navegacion .grid a.jjj {
             background-color: rgba(100, 149, 237, 0);
             border: 1px solid rgba(100, 149, 237, 0);
@@ -179,9 +188,8 @@
         }
 
         #navegacion .grid a.jjj:hover {
-            background-color: rgba(100, 149, 237, 0);
-            border: 1px solid rgba(100, 149, 237, 0.4);
-            transition: border 800ms;
+            background-color: transparent;
+            border: 1px solid transparent;
         }
 
         #navegacion .grid a:hover {
@@ -208,7 +216,7 @@
 
             #navegacion .grid a{
                 
-                
+                font-size: 1rem;
             }
 
             #navegacion .grid a.jjj {
@@ -242,7 +250,10 @@
             </a>
             <a href="./about">About</a>
             <a href="./projects">Work</a> 
-            <a href="mailto:info@jaim3.com">Contact</a> 
+            <a href="mailto:info@jaim3.com" class="highlight">Contact 
+                <span style="opacity:50%; margin-left:1ch;">
+                    &#129125;
+                </span></a> 
             
         </div>
     </div>
