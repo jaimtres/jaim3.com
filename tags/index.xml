@@ -1,74 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>Tags on Jaim3</title>
+    <link>https://jaimtres.github.io/jaim3.com/tags/</link>
+    <description>Recent content in Tags on Jaim3</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>App Icon</title>
-      <link>/tags/app-icon/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/app-icon/</guid>
-      <description></description>
-    </item>
+    <atom:link href="https://jaimtres.github.io/jaim3.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Branding</title>
-      <link>/tags/branding/</link>
+      <link>https://jaimtres.github.io/jaim3.com/tags/branding/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/branding/</guid>
+      <guid>https://jaimtres.github.io/jaim3.com/tags/branding/</guid>
       <description></description>
     </item>
     <item>
-      <title>UI</title>
-      <link>/tags/ui/</link>
+      <title>Web</title>
+      <link>https://jaimtres.github.io/jaim3.com/tags/web/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/ui/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web Dev</title>
-      <link>/tags/web-dev/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/web-dev/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Contest</title>
-      <link>/tags/contest/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/contest/</guid>
+      <guid>https://jaimtres.github.io/jaim3.com/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing</title>
-      <link>/tags/marketing/</link>
+      <link>https://jaimtres.github.io/jaim3.com/tags/marketing/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/marketing/</guid>
+      <guid>https://jaimtres.github.io/jaim3.com/tags/marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Illustration</title>
-      <link>/tags/illustration/</link>
+      <link>https://jaimtres.github.io/jaim3.com/tags/illustration/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/illustration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Product Design</title>
-      <link>/tags/product-design/</link>
-      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/product-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Editorial</title>
-      <link>/tags/editorial/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/editorial/</guid>
+      <guid>https://jaimtres.github.io/jaim3.com/tags/illustration/</guid>
       <description></description>
     </item>
   </channel>

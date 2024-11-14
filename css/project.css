@@ -124,18 +124,24 @@ svg.icon{
     display:inline; height:20px; vertical-align:text-bottom;
 }
 
-.tags li{
+.tags a{
     display: inline-block;
     color:#aaa;
-
     font-size:0.75rem;
-
     background-color:#f2f2f2;
     padding:0.25rem 0.5rem;
-
     border-radius: 100rem;
+    text-decoration: none;
 
+    border:1px solid transparent;
+    transition: 250ms all ease-in-out;
 }
+
+.tags a:hover{
+    border:1px solid var(--enlace);
+}
+
+
 
 
 .tags li:last-of-type::after{
