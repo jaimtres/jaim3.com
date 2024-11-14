@@ -1,5 +1,5 @@
 :root{
-    --img-radius:1rem;
+    --img-radius:0.5rem;
     --li-padding:1rem;
     --li-radius:calc(var(--img-radius) + var(--li-padding));
 }
@@ -40,14 +40,15 @@ a {
     border-radius: var(--img-radius);
     width:100%;
     margin-bottom:0.75rem;
-    
+
     transform: scale(1);
     transition: 300ms all ease-in-out;
 }
 
 .projects img:hover{
     transform: scale(0.99);
-    opacity:90%;
+    filter:brightness(97%);
+
 }
 
 .projects > li{
@@ -81,11 +82,12 @@ a {
 
 div.info{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 70% 30%;
 }
 
 .info h1{
     font-size:1.1rem;
+    vertical-align: baseline;
 }
 
 .tags{
@@ -107,6 +109,59 @@ div.info{
 .tags li:last-of-type::after{
     content:"";
 }
+
+
+
+
+.tags-list a{
+    display:inline-block;
+    background-color: var(--enlace-bg);
+    color:var(--enlace);
+    padding:0.5rem 0.75rem;
+    font-size:0.9rem;
+    margin-block:0.25rem;
+    border-radius: 1000rem;
+
+    transition:300ms all ease-in-out;
+    text-transform: capitalize;
+}
+
+.tags-list a:hover{
+    background-color: var(--enlace);
+    color:white;
+}
+
+.tags-list{
+    width: 100%;
+    text-align: center;
+}
+
+
+.badge{
+    display:inline-block;
+    margin-left:1ch;
+    padding:0.25rem 0.5rem;
+    font-size:0.75rem;
+    border-radius: 0.4rem;
+
+    vertical-align: middle;
+}
+
+.badge-gray{
+    background-color:rgb(238, 238, 238);
+    color:#888;
+}
+
+.badge-green{
+    background-color:rgb(211, 244, 232);
+    color:#03a763;
+}
+
+.badge-orange{
+    background-color:  #fdf6d2;
+    color:#f39508;
+}
+
 
 @media only screen and (max-width: 500px) {
 

@@ -43,12 +43,13 @@ img{
     border: 1px solid #e4e4e4;
     box-shadow:0px 0px 20px rgba(0,0,0,0.05);
     margin-top:2ch;
-
     transition: 300ms all ease-in-out;
 }
 
 
-img:hover{
+
+
+img:not(.thumb):hover{
     border:1px solid var(--enlace);
     box-shadow:0px 0px 20px rgba(77, 89, 255, 0.15);
 }
@@ -99,17 +100,17 @@ header{
     border-radius: 0.4rem;
 }
 
-.badge-concept{
+.badge-gray{
     background-color:rgb(238, 238, 238);
     color:#888;
 }
 
-.badge-client{
+.badge-green{
     background-color:rgb(211, 244, 232);
     color:#03a763;
 }
 
-.badge-inp{
+.badge-orange{
     background-color:  #fdf6d2;
     color:#f39508;
 }
