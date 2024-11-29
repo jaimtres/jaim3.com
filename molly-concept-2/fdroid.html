@@ -30,8 +30,9 @@
         </a>
         </div>
 
-        <p class="versions"><b>• Molly</b>, like Signal, uses Google's proprietary code to support some features<br><br>
-        <b>• Molly-FOSS</b> is the community effort to make it 100% free and open-source</p>
+        <p class="info">
+            <b>Molly</b>, like Signal, uses Google's proprietary code to support some features<br><br>
+            <b>Molly-FOSS</b> is the community effort to make it 100% free and open-source</p>
 
         
         
@@ -94,13 +95,15 @@
 
 
     <footer>
-        © 2024
-        <svg style="max-width:70px; margin:auto; vertical-align:middle; margin-left:0.5ch; opacity:70%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280.66 452.35"><defs><style>.a{fill:#7661ff;}</style></defs><path class="a" d="M231.63.07A226.16,226.16,0,0,0,49,366.7l-8.1,14.17h0L21,415.59a24.56,24.56,0,0,0,21.33,36.76h182c125.81,0,229.42-102.94,228-228.74C451,101.7,353.17,2.94,231.63.07Zm-73.47,303.8a29,29,0,0,1-29,29H123.7a29,29,0,0,1-29-29V148.48a29,29,0,0,1,29-29h5.45a29,29,0,0,1,29,29Zm99.75,0a29,29,0,0,1-29,29h-5.45a29,29,0,0,1-29-29V220.22a29,29,0,0,1,29-29h5.45a29,29,0,0,1,29,29Zm99.76,0a29,29,0,0,1-29,29H323.2a29,29,0,0,1-29-29V148.48a29,29,0,0,1,29-29h5.45a29,29,0,0,1,29,29Z"/><polygon class="a" points="679.74 287.44 605.28 121.13 567.75 121.13 567.75 333.22 602.54 333.22 602.54 187.96 667.54 333.22 691.64 333.22 756.34 187.96 756.34 333.22 791.13 333.22 791.13 121.13 753.9 121.13 679.74 287.44"/><path class="a" d="M939.74,173q-19.53-10.68-43.64-10.68T852.46,173a78,78,0,0,0-30.82,30.51Q810.35,223.37,810.35,249q0,26,11,45.62a77.71,77.71,0,0,0,30.21,30.52q19.23,10.85,43,10.83a91,91,0,0,0,44.09-10.83,80.35,80.35,0,0,0,31.59-30.67q11.6-19.83,11.59-45.47t-11.29-45.47A78,78,0,0,0,939.74,173Zm-.92,107.11a48.82,48.82,0,0,1-19.07,19.22,51.66,51.66,0,0,1-25.17,6.41q-21.06,0-35-14.8t-13.88-42q0-18.3,6.71-31a45.85,45.85,0,0,1,18.16-19.08,50.08,50.08,0,0,1,24.87-6.4,50.91,50.91,0,0,1,25,6.4A47.49,47.49,0,0,1,939.13,218q7,12.66,7,31T938.82,280.12Z"/><rect class="a" x="1001.07" y="107.4" width="34.79" height="225.82"/><rect class="a" x="1066.37" y="107.4" width="34.79" height="225.82"/><polygon class="a" points="1244.84 170.77 1197.89 293.24 1152.7 170.77 1114.12 170.77 1178.06 330.47 1149.02 399.96 1185.02 399.96 1280.66 170.77 1244.84 170.77"/></svg>
-        
-        
-        
+        <span id="copyright"></span>
+        <img src="./logo-wordmark.svg" style="max-width:75px; margin:auto; vertical-align:middle; margin-left:0.5ch; opacity:70%">
         <br>
-        <span class="credit">Site made by <a href="https://jaim3.com/en/">Jaim3</span></a>
+        <span class="credit">Site / Logo by <a href="https://jaim3.com/">Jaim3</span></a>
     </footer>
+
+    <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById('copyright').textContent = `© ${currentYear}`;
+    </script>
 </body>
 </html>
