@@ -127,5 +127,12 @@
       <guid>https://jaim3.com/about/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Project Icons</title>
+      <link>https://jaim3.com/projects/app-icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaim3.com/projects/app-icons/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
